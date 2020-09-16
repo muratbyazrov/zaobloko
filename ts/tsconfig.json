@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "noEmitOnError": true, // с ошибками не компилировать
+        "target": "ES6",
+        "removeComments": true, // Удаляет комментарии
+        "outDir": "js", // куда компилиоровать
+        "sourceMap": true, // браузер будет ссылаться  в консоли на ts, а не js файл
+        "outFile": "dist/index.js" // название выходного файла
+    }
+}
